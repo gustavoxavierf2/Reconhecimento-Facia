@@ -1,0 +1,90 @@
+running install
+C:\Users\gulos\anaconda3\lib\site-packages\setuptools\command\install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+C:\Users\gulos\anaconda3\lib\site-packages\setuptools\command\easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running bdist_egg
+running egg_info
+writing dlib.egg-info\PKG-INFO
+writing dependency_links to dlib.egg-info\dependency_links.txt
+writing top-level names to dlib.egg-info\top_level.txt
+reading manifest file 'dlib.egg-info\SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+no previously-included directories found matching 'tools\python\build*'
+writing manifest file 'dlib.egg-info\SOURCES.txt'
+installing library code to build\bdist.win-amd64\egg
+running install_lib
+running build_py
+running build_ext
+C:\Users\gulos\OneDrive\Documentos\iot\reconhecimento_Facial_faceRecognition\dlib-19.19\setup.py:131: DeprecationWarning: distutils Version classes are deprecated. Use packaging.version instead.
+  if LooseVersion(cmake_version) < '3.1.0':
+Building extension for Python 3.9.13 (main, Aug 25 2022, 23:51:50) [MSC v.1916 64 bit (AMD64)]
+Invoking CMake setup: 'cmake C:\Users\gulos\OneDrive\Documentos\iot\reconhecimento_Facial_faceRecognition\dlib-19.19\tools\python -DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\Users\gulos\OneDrive\Documentos\iot\reconhecimento_Facial_faceRecognition\dlib-19.19\build\lib.win-amd64-cpython-39 -DPYTHON_EXECUTABLE=C:\Users\gulos\anaconda3\python.exe -DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\Users\gulos\OneDrive\Documentos\iot\reconhecimento_Facial_faceRecognition\dlib-19.19\build\lib.win-amd64-cpython-39 -A x64'
+CMake Error at CMakeLists.txt:3 (project):
+  Generator
+
+    NMake Makefiles
+
+  does not support platform specification, but platform
+
+    x64
+
+  was specified.
+
+
+CMake Error: CMAKE_C_COMPILER not set, after EnableLanguage
+CMake Error: CMAKE_CXX_COMPILER not set, after EnableLanguage
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/gulos/OneDrive/Documentos/iot/reconhecimento_Facial_faceRecognition/dlib-19.19/build/temp.win-amd64-cpython-39/Release/CMakeFiles/CMakeOutput.log".
+Traceback (most recent call last):
+  File "C:\Users\gulos\OneDrive\Documentos\iot\reconhecimento_Facial_faceRecognition\dlib-19.19\setup.py", line 223, in <module>
+    setup(
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\__init__.py", line 87, in setup
+    return distutils.core.setup(**attrs)
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\_distutils\core.py", line 185, in setup
+    return run_commands(dist)
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\_distutils\core.py", line 201, in run_commands
+    dist.run_commands()
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\_distutils\dist.py", line 973, in run_commands
+    self.run_command(cmd)
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+    super().run_command(command)
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\_distutils\dist.py", line 992, in run_command
+    cmd_obj.run()
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\command\install.py", line 74, in run
+    self.do_egg_install()
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\command\install.py", line 123, in do_egg_install
+    self.run_command('bdist_egg')
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\_distutils\cmd.py", line 319, in run_command
+    self.distribution.run_command(command)
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+    super().run_command(command)
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\_distutils\dist.py", line 992, in run_command
+    cmd_obj.run()
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\command\bdist_egg.py", line 165, in run
+    cmd = self.call_command('install_lib', warn_dir=0)
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\command\bdist_egg.py", line 151, in call_command
+    self.run_command(cmdname)
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\_distutils\cmd.py", line 319, in run_command
+    self.distribution.run_command(command)
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+    super().run_command(command)
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\_distutils\dist.py", line 992, in run_command
+    cmd_obj.run()
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\command\install_lib.py", line 11, in run
+    self.build()
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\_distutils\command\install_lib.py", line 112, in build
+    self.run_command('build_ext')
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\_distutils\cmd.py", line 319, in run_command
+    self.distribution.run_command(command)
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\dist.py", line 1217, in run_command
+    super().run_command(command)
+  File "C:\Users\gulos\anaconda3\lib\site-packages\setuptools\_distutils\dist.py", line 992, in run_command
+    cmd_obj.run()
+  File "C:\Users\gulos\OneDrive\Documentos\iot\reconhecimento_Facial_faceRecognition\dlib-19.19\setup.py", line 135, in run
+    self.build_extension(ext)
+  File "C:\Users\gulos\OneDrive\Documentos\iot\reconhecimento_Facial_faceRecognition\dlib-19.19\setup.py", line 172, in build_extension
+    subprocess.check_call(cmake_setup, cwd=build_folder)
+  File "C:\Users\gulos\anaconda3\lib\subprocess.py", line 373, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['cmake', 'C:\\Users\\gulos\\OneDrive\\Documentos\\iot\\reconhecimento_Facial_faceRecognition\\dlib-19.19\\tools\\python', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=C:\\Users\\gulos\\OneDrive\\Documentos\\iot\\reconhecimento_Facial_faceRecognition\\dlib-19.19\\build\\lib.win-amd64-cpython-39', '-DPYTHON_EXECUTABLE=C:\\Users\\gulos\\anaconda3\\python.exe', '-DCMAKE_LIBRARY_OUTPUT_DIRECTORY_RELEASE=C:\\Users\\gulos\\OneDrive\\Documentos\\iot\\reconhecimento_Facial_faceRecognition\\dlib-19.19\\build\\lib.win-amd64-cpython-39', '-A', 'x64']' returned non-zero exit status 1.
